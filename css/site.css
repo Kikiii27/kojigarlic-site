@@ -61,7 +61,7 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.04;letter-spa
 .lead{font-size:clamp(1.08rem,1.35vw,1.24rem);color:var(--ink-2);max-width:580px}
 
 /* word-by-word heading reveal (app.js wraps words in .w>span) */
-.js .split .w{display:inline-block;overflow:hidden;vertical-align:top;padding:.14em .04em .2em;margin:-.14em -.04em -.2em}
+.js .split .w{display:inline-block;overflow:hidden;vertical-align:top;padding:.14em .16em .26em;margin:-.14em -.16em -.26em}
 .js .split .w>span{display:inline-block;opacity:0;transform:translateY(115%);transition:transform 1.05s var(--ease),opacity .7s;transition-delay:calc(var(--d,0ms) + var(--i,0) * 55ms)}
 .js .split.in .w>span{opacity:1;transform:none}
 /* block reveal */
