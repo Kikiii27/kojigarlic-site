@@ -1,3 +1,4 @@
+window.KOJI=window.KOJI||{};KOJI.AV="ab196b8d";
 /* KOJI — site configuration.
    The publishable key is meant to be public: every table is protected by row-level security,
    and customers can only call the four storefront functions (get_storefront, place_order,
@@ -362,8 +363,9 @@ K.UI = function (lang) {
   const kick = k => k ? `<p class="kick">${t(k)}</p>` : "";
   /* responsive product/stock image: a 640w copy for phones and grids, the full one for big screens */
   /* AVIF (~25% smaller) where supported, WebP otherwise; app.js swaps both when the gallery changes photo */
-  const set = (src, w, ext = "webp") => `${sm(src).replace(/webp$/, ext)} 640w, ${src.replace(/webp$/, ext)} ${w}w`;
-  const pic = (src, alt, o = {}) => { const w = o.w || 1136, sizes = o.sizes || "(max-width:760px) 50vw, 30vw"; return `<picture><source type="image/avif" srcset="${set(src, w, "avif")}" sizes="${sizes}"><img${o.cls ? ` class="${o.cls}"` : ""} src="${src}" srcset="${set(src, w)}" sizes="${sizes}" alt="${esc(alt)}" width="${w}" height="${o.h || 1408}"${o.eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"${o.style ? ` style="${o.style}"` : ""}></picture>` };
+  const av = () => K.AV ? `?v=${K.AV}` : ""; // images keep their names, so a version query makes browsers fetch new ones after each build
+  const set = (src, w, ext = "webp") => `${sm(src).replace(/webp$/, ext)}${av()} 640w, ${src.replace(/webp$/, ext)}${av()} ${w}w`;
+  const pic = (src, alt, o = {}) => { const w = o.w || 1136, sizes = o.sizes || "(max-width:760px) 50vw, 30vw"; return `<picture><source type="image/avif" srcset="${set(src, w, "avif")}" sizes="${sizes}"><img${o.cls ? ` class="${o.cls}"` : ""} src="${src}${av()}" srcset="${set(src, w)}" sizes="${sizes}" alt="${esc(alt)}" width="${w}" height="${o.h || 1408}"${o.eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"${o.style ? ` style="${o.style}"` : ""}></picture>` };
 
   /* ---------------- cards ---------------- */
   const prodCard = (p, o = {}) => { const c = L(p); return `
@@ -462,7 +464,7 @@ K.UI = function (lang) {
   /* ---------------- pages ---------------- */
   const home = () => `
 <section class="hero">
-  <div class="hero-media"><picture><source type="image/avif" srcset="assets/shot-hero.avif"><img src="assets/shot-hero.webp" alt="" width="1680" height="944" fetchpriority="high" decoding="async"></picture></div>
+  <div class="hero-media"><picture><source type="image/avif" srcset="assets/shot-hero.avif${av()}"><img src="assets/shot-hero.webp${av()}" alt="" width="1680" height="944" fetchpriority="high" decoding="async"></picture></div>
   <div class="wrap hero-in">
     <p class="kick hero-k">${t("kick.hero")}</p>
     <h1 class="display" data-split>${t("hero.h")}</h1>
