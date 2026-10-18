@@ -296,7 +296,7 @@ function header() {
   hd.addEventListener("focusin", () => hd.classList.remove("hide"));
   upd();
 }
-/* 21 days: the page itself darkens from fresh garlic to black garlic while the section scrolls by */
+/* white to black: the page itself darkens from fresh garlic to black garlic while the section scrolls by */
 function ageStory() {
   const sec = $("#age"); if (!sec || RM) return;
   sec.classList.add("live");
@@ -315,8 +315,8 @@ function ageStory() {
     sec.style.setProperty("--bg", `rgb(${bg})`);
     sec.style.setProperty("--bulb", `rgb(${mix(BULB, p)})`);
     sec.style.setProperty("--line", `rgb(${mix(LINE, p)})`);
-    const d = Math.round(p * 21); if (d !== lastD) { day.textContent = String(d).padStart(2, "0"); lastD = d }
-    const s = Math.min(3, Math.round(p * 3)); if (s !== lastS) { st.forEach((li, i) => li.classList.toggle("on", i === s)); lastS = s }
+    // the big word follows the stage (fresh → black); no day numbers on the site (18 Oct: the ageing time stays ours)
+    const s = Math.min(3, Math.round(p * 3)); if (s !== lastS) { st.forEach((li, i) => li.classList.toggle("on", i === s)); if (day) day.textContent = t("st")[s]; lastS = s }
     const dark = (0.2126 * bg[0] + 0.7152 * bg[1] + 0.0722 * bg[2]) < 140; if (dark !== lastDark) { sec.classList.toggle("dark-on", dark); lastDark = dark }
   };
   const req = () => { if (!raf) raf = requestAnimationFrame(frame) };

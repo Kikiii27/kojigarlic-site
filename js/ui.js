@@ -142,12 +142,12 @@ K.UI = function (lang) {
     <div class="wrap age-in">
       <div class="age-tx">
         <h2 class="kick" id="ageH">${t("days.h")}</h2>
-        <div class="age-day" aria-hidden="true"><b id="ageDay">00</b><span>${t("days.day")}</span></div>
-        <ol class="age-st">${[0, 1, 2, 3].map(i => `<li${i ? "" : ' class="on"'}><span class="age-d">${t("days.day")} ${num([0, 7, 14, 21][i])}</span><h3>${t(`d${i}.h`)}</h3><p>${t(`d${i}.p`)}</p></li>`).join("")}</ol>
+        <div class="age-day" aria-hidden="true"><b id="ageDay">${t("st")[0]}</b></div>
+        <ol class="age-st">${[0, 1, 2, 3].map(i => `<li${i ? "" : ' class="on"'}><h3>${t(`d${i}.h`)}</h3><p>${t(`d${i}.p`)}</p></li>`).join("")}</ol>
       </div>
       <div class="age-art">${BULB}</div>
     </div>
-    <div class="wrap"><div class="age-rail" aria-hidden="true"><i></i><div>${[0, 7, 14, 21].map(d => `<span>${num(d)}</span>`).join("")}</div></div></div>
+    <div class="wrap"><div class="age-rail" aria-hidden="true"><i></i><div>${t("st").map(w => `<span>${w}</span>`).join("")}</div></div></div>
   </div>
 </section>`;
 
@@ -162,7 +162,7 @@ K.UI = function (lang) {
       <p class="hero-p">${t("hero.p")}</p>
       <div class="hero-ctas"><a class="btn btn-light btn-lg" href="#shop">${t("hero.cta")} ${arrow}</a><a class="btn btn-ghost btn-lg" href="#about">${t("hero.what")}</a></div>
     </div>
-    <dl class="hero-stats">${[[1, "pts.1"], [21, "pts.2"], [0, "pts.3"]].map(([n, k]) => `<div><dt data-count="${n}">${n}</dt><dd>${t(k)}</dd></div>`).join("")}</dl>
+    <dl class="hero-stats">${[[1, "pts.1"], [0, "pts.2"], [0, "pts.3"]].map(([n, k]) => `<div><dt data-count="${n}">${n}</dt><dd>${t(k)}</dd></div>`).join("")}</dl>
   </div>
 </section>
 <div class="mq" aria-hidden="true"><div class="mq-t">${[0, 1].map(() => t("mq").map(w => `<span>${w}</span><i>✦</i>`).join("")).join("")}</div></div>
@@ -182,7 +182,6 @@ K.UI = function (lang) {
 </div></section>
 ${age()}
 ${taste()}
-${ways()}
 <section class="sec tint"><div class="wrap">
   ${secHd("rec.k", "rec.home", `<a class="more" href="recipes.html">${t("rec.all")} ${arrow}</a>`)}
   <div class="rgrid">${K.RECIPES.slice(0, 3).map(recCard).join("")}</div>
@@ -354,7 +353,7 @@ ${taste()}
   const bottom = () => `
 <footer class="ft"><div class="wrap">
   <div class="ft-top">
-    <div class="ft-cta"><h2 class="h1">${t("hero.h")}</h2><a class="btn btn-light btn-lg" href="shop.html">${t("hero.cta")} ${arrow}</a></div>
+    <div class="ft-cta"><h2 class="h1">${t("ft.h")}</h2><a class="btn btn-light btn-lg" href="shop.html">${t("hero.cta")} ${arrow}</a></div>
     <div class="ft-cols">
       <div><h3>${t("ft.shop")}</h3>${NAV.map(([h, k]) => `<a href="${h}">${t(k)}</a>`).join("")}</div>
       <div><h3>${t("ft.help")}</h3><a href="track.html">${t("nav.track")}</a><a href="story.html#faq">${t("ft.faq")}</a><a href="terms.html">${t("ft.terms")}</a><a href="privacy.html">${t("ft.privacy")}</a></div>

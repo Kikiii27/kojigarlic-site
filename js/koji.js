@@ -1,4 +1,4 @@
-window.KOJI=window.KOJI||{};KOJI.AV="ab196b8d";
+window.KOJI=window.KOJI||{};KOJI.AV="53881f62";
 /* KOJI — site configuration.
    The publishable key is meant to be public: every table is protected by row-level security,
    and customers can only call the four storefront functions (get_storefront, place_order,
@@ -33,26 +33,26 @@ KOJI.STATUS = {
 KOJI.T = {
 ar:{
   "title.home":"كوجي — ثوم أسود متعتّق في مصر","title.shop":"المتجر — كوجي","title.recipes":"وصفات — كوجي","title.story":"الحكاية — كوجي","title.chefs":"للمطاعم — كوجي","title.track":"تتبّع طلبك — كوجي","title.privacy":"الخصوصية — كوجي","title.terms":"الشروط والتوصيل — كوجي","title.404":"الصفحة مش موجودة — كوجي",
-  "bar":["طلب مسبق: بنأكد ميعاد التسليم قبل أي دفع","مكوّن واحد · ٢١ يوم · من غير إضافات","صنع في مصر"],
+  "bar":["طلب مسبق: بنأكد ميعاد التسليم قبل أي دفع", "مكوّن واحد · من غير إضافات", "صنع في مصر"],
   "nav.shop":"المتجر","nav.story":"الحكاية","nav.recipes":"وصفات","nav.chefs":"للمطاعم","nav.cart":"السلة","nav.home":"الرئيسية","nav.track":"تتبّع طلبك",
   "loader":"بنعتّق","scroll":"انزل",
-  "hero.h":"ثوم،<br><i>اديناله وقته.</i>","hero.p":"ثوم مصري بيتعتّق ٢١ يوم لحد ما يسودّ ويطرى، ويبقى طعمه حلو ومالح زي البلسميك.","hero.cta":"تسوّق",
-  "mani.big":"مكوّن واحد. ٢١ يوم. ولا حاجة تانية. الحرارة الهادية بتخلّي السكر والبروتين اللي في الثوم يتفاعلوا ببطء، فالحدة بتروح، ويفضل طعم عميق مالوش اسم في المطبخ المصري لسه.",
-  "mani.sub":"بنعتّق على دفعات صغيرة. من غير تخمير، ولا سكر مضاف، ولا مواد حافظة. وقت وحرارة هادية وبس.",
+  "hero.h":"الصبر<br><i>ليه طعم.</i>","hero.p":"ثوم مصري بنسيبه على مهله لحد ما يسودّ ويطرى، ويطلع منه طعم حلو ومالح، أقرب للبلسميك والتمر.","hero.cta":"تسوّق",
+  "mani.big":"مكوّن واحد، ووقت، ولا حاجة تانية. الحدة بتروح، ويفضل طعم عميق مالوش اسم في المطبخ المصري لسه.",
+  "mani.sub":"بنعتّق على دفعات صغيرة. من غير تخمير، ولا سكر مضاف، ولا مواد حافظة.",
   "mani.cta":"اعرف الحكاية",
-  "label.h":"على العبوة","label.ing":"المكوّنات","label.ingv":"ثوم ١٠٠٪","label.aged":"مدة التعتيق","label.agedv":"٢١ يوم","label.origin":"المنشأ","label.originv":"مصر","label.sugar":"سكر مضاف","label.pres":"مواد حافظة","label.none":"مفيش","label.keep":"الحفظ","label.keepv":"مكان بارد وناشف",
-  "days.k":"٢١ يوم في دقيقة سكرول","days.unit":"يوم",
+  "label.h":"على العبوة","label.ing":"المكوّنات","label.ingv":"ثوم ١٠٠٪","label.aged":"الطعم","label.agedv":"حلو ومالح","label.origin":"المنشأ","label.originv":"مصر","label.sugar":"سكر مضاف","label.pres":"مواد حافظة","label.none":"مفيش","label.keep":"الحفظ","label.keepv":"مكان بارد وناشف",
+  "days.k":"من الأبيض للأسود","days.unit":"يوم",
   "d0.h":"ثوم مصري طازج","d0.p":"راس ثوم كاملة، بيضا وحادة زي أي ثوم.",
   "d1.h":"بيبدأ يغمق","d1.p":"الفص بياخد لون عسلي، والحدة بتبدأ تهدى.",
   "d2.h":"الحلاوة بتطلع","d2.p":"بني غامق، وطعم كراميل وفواكه مجففة.",
   "d3.h":"أسود وطري","d3.p":"طري زي التمر. حلو ومالح، وفيه حموضة خفيفة.",
-  "hero.what":"يعني إيه ثوم أسود؟","about.k":"إيه هو","about.h":"ثوم مصري،<br><i>اتعتّق ٢١ يوم.</i>","pts.1b":"١","pts.1":"مكوّن واحد: ثوم","pts.2b":"٢١","pts.2":"يوم تعتيق على حرارة هادية","pts.3b":"٠","pts.3":"سكر مضاف أو مواد حافظة",
+  "hero.what":"يعني إيه ثوم أسود؟","about.k":"إيه هو","about.h":"ثوم مصري،<br><i>من غير استعجال.</i>","pts.1b":"١","pts.1":"مكوّن واحد: ثوم مصري","pts.2b":"٠","pts.2":"سكر مضاف","pts.3b":"٠","pts.3":"مواد حافظة",
   "home.range":"منتجاتنا","home.all":"كل المنتجات",
   "shop.h":"منتجاتنا","shop.p":"فصوص، ومعجون، ورؤوس ثوم كاملة. كله من دفعات صغيرة، ومن غير أي إضافات.",
   "f.all":"الكل","f.kitchen":"للمطبخ","f.gift":"هدايا","f.daily":"يومي",
   "shop.note":"مصاريف التوصيل بتتحدد حسب العنوان، وبنأكدها معاك قبل أي دفع",
   "add":"أضف للسلة","added":"اتضاف ✓","view":"شوف","soldout":"خلصت الكمية",
-  "taste.k":"بروفايل الطعم","taste.h":"مش ثوم.<br>ومش حلو.","taste.p":"أقرب حاجة ليه تمرة فيها لمسة بلسميك وصويا. طري ومطاطي، وبيدوب في الصوص السخن.",
+  "taste.k":"بروفايل الطعم","taste.h":"حلو ومالح.<br><i>ومالوش اسم لسه.</i>","taste.p":"أقرب حاجة ليه تمرة فيها لمسة بلسميك وصويا. طري ومطاطي، وبيدوب في الصوص السخن.",
   "taste.black":"ثوم أسود","taste.fresh":"ثوم طازج","taste.note":"تقدير من تذوقنا للثوم الأسود، مش قياس معملي.",
   "fact.sweet":"حلاوة","fact.umami":"أومامي","fact.bals":"بلسمي","fact.acid":"حموضة","fact.bite":"حدّة",
   "ways.h":"تلات طرق تبدأ بيها",
@@ -62,21 +62,21 @@ ar:{
   "rec.h":"وصفات","rec.k":"من المطبخ المصري","rec.all":"كل الوصفات","rec.p":"وصفات بسيطة بحاجات موجودة في أي مطبخ مصري. اختار واحدة واطبخها النهارده.",
   "rc.all":"الكل","rc.breakfast":"فطار","rc.main":"أطباق رئيسية","rc.sauce":"صوصات وتتبيلات",
   "r.ing":"المكوّنات","r.steps":"الطريقة","r.time":"الوقت","r.serves":"يكفي","r.uses":"بيستخدم","r.next":"الوصفة الجاية","r.tick":"علّم على اللي جهزته",
-  "chefs.k":"للمطاعم والشيفات","chefs.h":"بالكيلو،<br><i>لمطبخك.</i>","chefs.p":"فصوص مقشّرة في كيس حاجز، ومعجون، ورؤوس كاملة. دي أسعار الكيلو، وبنأكد السعر النهائي والكميات مع أول طلب.",
+  "chefs.k":"للمطاعم والشيفات","chefs.h":"المكوّن السري<br><i>لمطبخك.</i>","chefs.p":"فصوص مقشّرة في كيس حاجز، ومعجون، ورؤوس كاملة. دي أسعار الكيلو، وبنأكد السعر النهائي والكميات مع أول طلب.",
   "chefs.l1":"عينة لطبق واحد قبل أول طلب","chefs.l2":"فصوص مقشّرة، من غير وقت تحضير ولا هدر","chefs.l3":"الكميات ومواعيد التوريد بنتفق عليها مع كل مطبخ","chefs.cta":"اطلب عينة","chefs.req":"اطلب","chefs.more":"صفحة المطاعم",
-  "chefs.ph":"بالكيلو، لمطبخك.","chefs.pp":"بنشتغل مع المطابخ بنفس طريقة الشيف: نجرّب في طبق حقيقي، ونقارن، والطبق هو اللي يقرر.",
+  "chefs.ph":"المكوّن السري لمطبخك.","chefs.pp":"بنشتغل مع المطابخ بنفس طريقة الشيف: نجرّب في طبق حقيقي، ونقارن، والطبق هو اللي يقرر.",
   "chefs.price":"أسعار الكيلو","chefs.how":"إزاي بنبدأ","chefs.ctah":"جرّبه في طبق<br><i>من المنيو بتاعك.</i>","chefs.ctap":"بنبعتلك عينة، تقارنها بالطبق العادي، وإنت تقرر.",
   "s1.h":"نختار الطبق","s1.p":"وصفة موجودة عندك، وفرصة نكهة محددة.","s2.h":"نحدد المقارنة","s2.p":"المورد الحالي أو طريقتك الحالية.","s3.h":"نجرّب كميتين","s3.p":"٢ جم و٥ جم في نفس الطبق: الطعم، والقوام، وسهولة الاستخدام.","s4.h":"إنت تقرر","s4.p":"ترفض، أو نعدّل، أو نبدأ طلب تجاري.",
-  "story.h":"الحكاية","story.p":"تلات شركا، وغرفة تعتيق صممناها بنفسنا، وسؤال واحد: ليه الثوم الأسود مش في مطبخنا؟",
+  "story.h":"الحكاية","story.p":"تلات شركا، وسؤال واحد: ليه الثوم الأسود مش في مطبخنا؟",
   "story.big":"الثوم الأسود مكوّن معروف في كوريا واليابان من سنين. ومصر من أكبر الدول المنتجة للثوم في العالم، ومع ذلك لسه مش موجود في أغلب المطابخ المصرية. فقررنا نعتّقه هنا.",
   "story.vh":"اللي ماشيين عليه",
-  "v1.h":"مكوّن واحد","v1.p":"ثوم وبس. مفيش سكر، ولا مواد حافظة، ولا ألوان.","v2.h":"كل دفعة متسجّلة","v2.p":"بنسجّل الحرارة والوزن في كل دفعة، عشان أي ملاحظة نقدر نرجعلها.","v3.h":"صنع في مصر","v3.p":"ثوم مصري، وغرفة تعتيق صممناها بنفسنا.","v4.h":"أكل، مش علاج","v4.p":"مش هنقول ادعاءات صحية من غير دليل على منتجنا نفسه.",
+  "v1.h":"مكوّن واحد","v1.p":"ثوم وبس. مفيش سكر، ولا مواد حافظة، ولا ألوان.","v2.h":"كل دفعة متسجّلة","v2.p":"بنسجّل كل دفعة، عشان أي ملاحظة نقدر نرجعلها.","v3.h":"صنع في مصر","v3.p":"ثوم مصري، متعتّق في مصر.","v4.h":"أكل، مش علاج","v4.p":"مش هنقول ادعاءات صحية من غير دليل على منتجنا نفسه.",
   "faq.h":"أسئلة",
   "cta.h":"جرّبه في<br><i>طبق واحد.</i>","cta.p":"ابدأ ببرطمان فصوص، وجرّبه في أي طبق بتحط فيه ثوم أو صويا أو بلسميك.","cta.btn":"تسوّق الفصوص",
   "pdp.pair":"اطبخ بيه","pdp.more":"منتجات تانية","pdp.use":"إزاي تستخدمه","pdp.keep":"الحفظ","pdp.ship":"التوصيل والدفع",
   "pdp.shipv":"القاهرة والجيزة الأول. مصاريف التوصيل بتتحدد حسب العنوان، وبنقولهالك قبل التأكيد. الدفع كاش عند الاستلام، أو إنستاباي، أو فودافون كاش، ومفيش أي دفع قبل ما نأكد ميعاد التسليم.",
   "pd.pack":"العبوة","pd.ing":"المكوّنات","pd.ingv":"ثوم ١٠٠٪","pd.use":"بيتاكل مع",
-  "ft.line":"ثوم أسود بيتعتّق في مصر، دفعة دفعة.","ft.shop":"المتجر","ft.help":"مساعدة","ft.faq":"أسئلة شائعة","ft.contact":"تواصل","ft.privacy":"الخصوصية","ft.terms":"الشروط والتوصيل",
+  "ft.h":"ثوم،<br><i>اديناله وقته.</i>","ft.line":"ثوم أسود بيتعتّق في مصر، دفعة دفعة.","ft.shop":"المتجر","ft.help":"مساعدة","ft.faq":"أسئلة شائعة","ft.contact":"تواصل","ft.privacy":"الخصوصية","ft.terms":"الشروط والتوصيل",
   "ft.copy":"© ٢٠٢٦ كوجي","ft.illus":"بعض الصور توضيحية لحد ما نصوّر دفعاتنا",
   "cart.h":"سلتك","cart.empty":"السلة فاضية","cart.emptyp":"ابدأ ببرطمان فصوص.","cart.go":"روح للمتجر","cart.items":"المنتجات","cart.ship":"التوصيل","cart.shipv":"بيتحدد حسب العنوان","cart.total":"الإجمالي","cart.co":"كمّل الطلب","cart.rm":"شيل","cart.closed":"الطلبات مقفولة مؤقتًا. جرّب تاني قريب.",
   "co.k":"إتمام الطلب","co.h":"آخر خطوة","co.p":"ده طلب مسبق: هنكلمك نأكد ميعاد التسليم ومصاريف التوصيل قبل أي دفع.","co.pnp":"هنكلمك نأكد الطلب ومصاريف التوصيل قبل التسليم.",
@@ -93,17 +93,17 @@ ar:{
   "privacy.p":"إيه اللي بنجمعه لما تطلب، وبنستخدمه في إيه، ومين يقدر يشوفه.","terms.p":"الطلب المسبق، والأسعار، والتوصيل، والدفع، والإلغاء، والاسترجاع.",
   "404.h":"الصفحة دي<br><i>مش موجودة.</i>","404.p":"يمكن اللينك اتغيّر. جرّب المتجر أو الرئيسية.",
   
-  "desc.home":"ثوم مصري متعتّق ٢١ يوم لحد ما يسودّ ويطرى. فصوص ومعجون ورؤوس كاملة، مكوّن واحد ومن غير إضافات. اطلب أونلاين، ومفيش دفع قبل التأكيد.",
-  "desc.shop":"فصوص ثوم أسود، ومعجون، ورؤوس كاملة، وطقم هدية. ثوم مصري متعتّق ٢١ يوم، من غير سكر مضاف ولا مواد حافظة.",
+  "desc.home":"ثوم مصري متعتّق لحد ما يسودّ ويطرى. فصوص ومعجون ورؤوس كاملة، مكوّن واحد ومن غير إضافات. اطلب أونلاين، ومفيش دفع قبل التأكيد.",
+  "desc.shop":"فصوص ثوم أسود، ومعجون، ورؤوس كاملة، وطقم هدية. ثوم مصري متعتّق، من غير سكر مضاف ولا مواد حافظة.",
   "desc.recipes":"وصفات بسيطة بالثوم الأسود من المطبخ المصري: طحينة، ومكرونة وايت صوص، وفراخ في الفرن، وتوست بالجبنة.",
-  "desc.story":"تلات شركا، وغرفة تعتيق صممناها بنفسنا، وسؤال واحد: ليه الثوم الأسود مش في مطبخنا؟",
+  "desc.story":"تلات شركا، وسؤال واحد: ليه الثوم الأسود مش في مطبخنا؟",
   "desc.chefs":"ثوم أسود بالكيلو للمطاعم في مصر: فصوص مقشّرة، ومعجون، ورؤوس كاملة. اطلب عينة لطبق واحد قبل أول طلب.",
   "desc.track":"تابع طلبك من كوجي برقم الطلب ورقم الموبايل.","desc.privacy":"إيه اللي بنجمعه لما تطلب من كوجي، وبنستخدمه في إيه.","desc.terms":"الطلب المسبق، والأسعار، والتوصيل، والدفع، والإلغاء، والاسترجاع في كوجي.","desc.404":"الصفحة دي مش موجودة.",
   "soon":"متاح قريبًا","bar.closed":"الطلبات هتفتح قريب، والمطاعم تقدر تطلب عينة دلوقتي",
   "nav.menu":"القائمة","kick.hero":"ثوم أسود · متعتّق في مصر",
-  "mq":["مكوّن واحد","٢١ يوم تعتيق","من غير سكر مضاف","من غير مواد حافظة","ثوم مصري","دفعات صغيرة"],
-  "shop.k":"المتجر","about.not.h":"مش مخمّر، ولا فيه فطر.","about.not.p":"اللون الأسود من تفاعل ميلارد: السكر والبروتين اللي في الثوم بيتفاعلوا ببطء مع الحرارة الهادية، زي العيش لما يتحمّص.",
-  "days.h":"من أبيض لأسود في ٢١ يوم","days.day":"يوم",
+  "mq":["مكوّن واحد", "متعتّق على مهله", "من غير سكر مضاف", "من غير مواد حافظة", "ثوم مصري", "دفعات صغيرة"],
+  "shop.k":"المتجر","about.not.h":"مش مخمّر، ولا فيه فطر.","about.not.p":"لونه الأسود بييجي من الثوم نفسه مع الوقت، زي العيش لما يتحمّص. من غير أي إضافات.",
+  "days.h":"من أبيض لأسود","st":["طازج","بيغمق","بيحلى","أسود"],"days.day":"يوم",
   "ways.k":"إزاي تستخدمه","rec.home":"وصفات من<br><i>المطبخ المصري.</i>",
   "pr.k":"إزاي بنشتغل","pr.h":"اطلب وإنت مطمّن.",
   "pr1.h":"مفيش دفع قبل التأكيد","pr1.p":"بنكلمك نأكد ميعاد التسليم ومصاريف التوصيل الأول.",
@@ -112,32 +112,32 @@ ar:{
   "pr4.h":"تابع طلبك","pr4.p":"برقم الطلب ورقم موبايلك، في أي وقت.",
   "guide.k":"مش عارف تختار؟","guide.h":"فصوص، ولا معجون،<br><i>ولا راس كاملة؟</i>",
   "g.cloves":"للتقطيع والأكل زي ما هو. أسهل بداية.","g.paste":"بيتخلط في الصوصات والتتبيلات من غير هرس.","g.bulbs":"للتقديم والهدايا. بتقشّرها وقت ما تحتاجها.",
-  "pdp.badges":["ثوم ١٠٠٪","٢١ يوم تعتيق","من غير إضافات"],"pdp.pre":"طلب مسبق: بنأكد معاك قبل أي دفع","pdp.photo":"صورة",
-  "story.team.h":"مين إحنا","story.team.p":"تلات شركا درسنا هندسة كيميائية. بنعتّق الثوم بنفس الطريقة اللي اتعلمنا نشتغل بيها: نقيس، ونسجّل، ونجرّب تاني لحد ما الطعم يبقى مظبوط.",
+  "pdp.badges":["ثوم ١٠٠٪", "ثوم مصري", "من غير إضافات"],"pdp.pre":"طلب مسبق: بنأكد معاك قبل أي دفع","pdp.photo":"صورة",
+  "story.team.h":"مين إحنا","story.team.p":"تلات شركا درسنا هندسة كيميائية. بنشتغل بالطريقة اللي اتعلمناها: نقيس، ونسجّل، ونجرّب تاني لحد ما الطعم يبقى مظبوط.",
   "cart.up":"ضيف معاه","cart.note":"مفيش دفع دلوقتي. هنكلمك نأكد الأول.",
 },
 en:{
   "title.home":"KOJI — Black Garlic, Aged in Egypt","title.shop":"Shop — KOJI","title.recipes":"Recipes — KOJI","title.story":"Our Story — KOJI","title.chefs":"For Chefs — KOJI","title.track":"Track your order — KOJI","title.privacy":"Privacy — KOJI","title.terms":"Terms & Delivery — KOJI","title.404":"Page not found — KOJI",
-  "bar":["Pre-order: we confirm delivery before any payment","One ingredient · 21 days · nothing added","Made in Egypt"],
+  "bar":["Pre-order: we confirm delivery before any payment", "One ingredient · nothing added", "Made in Egypt"],
   "nav.shop":"Shop","nav.story":"Story","nav.recipes":"Recipes","nav.chefs":"For Chefs","nav.cart":"Bag","nav.home":"Home","nav.track":"Track order",
   "loader":"Ageing","scroll":"Scroll",
-  "hero.h":"Garlic,<br><i>given time.</i>","hero.p":"Egyptian garlic, aged for 21 days until it turns black, soft and sweet-savory, like balsamic.","hero.cta":"Shop the range",
-  "mani.big":"One ingredient. Twenty-one days. Nothing else. Gentle heat lets the garlic's own sugars and amino acids react slowly; the bite fades, and what's left is a depth the pantry has no other word for.",
-  "mani.sub":"Aged in small lots. No fermentation, no added sugar, no preservatives. Just time and gentle heat.",
+  "hero.h":"Patience<br><i>has a taste.</i>","hero.p":"Egyptian garlic, left to take its time until it turns black and soft, with a sweet-savory depth close to balsamic and dates.","hero.cta":"Shop the range",
+  "mani.big":"One ingredient, time, and nothing else. The bite fades, and what's left is a depth the pantry has no other word for.",
+  "mani.sub":"Aged in small lots. No fermentation, no added sugar, no preservatives.",
   "mani.cta":"Read our story",
-  "label.h":"On the label","label.ing":"Ingredients","label.ingv":"Garlic, 100%","label.aged":"Aged","label.agedv":"21 days","label.origin":"Origin","label.originv":"Egypt","label.sugar":"Added sugar","label.pres":"Preservatives","label.none":"None","label.keep":"Storage","label.keepv":"Cool, dry place",
-  "days.k":"21 days in one scroll","days.unit":"days",
+  "label.h":"On the label","label.ing":"Ingredients","label.ingv":"Garlic, 100%","label.aged":"Taste","label.agedv":"Sweet and savory","label.origin":"Origin","label.originv":"Egypt","label.sugar":"Added sugar","label.pres":"Preservatives","label.none":"None","label.keep":"Storage","label.keepv":"Cool, dry place",
+  "days.k":"White to black","days.unit":"days",
   "d0.h":"Fresh Egyptian garlic","d0.p":"Whole bulbs, white and sharp like any garlic.",
   "d1.h":"It starts to darken","d1.p":"The cloves turn honey-coloured and the bite begins to soften.",
   "d2.h":"Sweetness arrives","d2.p":"Deep brown, with notes of caramel and dried fruit.",
   "d3.h":"Black and tender","d3.p":"Soft like a date. Sweet, savory, gently tart.",
-  "hero.what":"What is black garlic?","about.k":"What it is","about.h":"Egyptian garlic,<br><i>aged 21 days.</i>","pts.1b":"1","pts.1":"ingredient: garlic","pts.2b":"21","pts.2":"days of gentle ageing","pts.3b":"0","pts.3":"added sugar or preservatives",
+  "hero.what":"What is black garlic?","about.k":"What it is","about.h":"Egyptian garlic,<br><i>never rushed.</i>","pts.1b":"1","pts.1":"ingredient: Egyptian garlic","pts.2b":"21","pts.2":"added sugar","pts.3b":"0","pts.3":"preservatives",
   "home.range":"Our products","home.all":"All products",
   "shop.h":"Our products","shop.p":"Cloves, paste and whole bulbs. All from small lots, with nothing added.",
   "f.all":"All","f.kitchen":"Kitchen","f.gift":"Gifts","f.daily":"Daily",
   "shop.note":"Delivery is quoted by address and confirmed with you before any payment",
   "add":"Add to bag","added":"Added ✓","view":"View","soldout":"Sold out",
-  "taste.k":"Flavor profile","taste.h":"Not garlic.<br>Not sweet.","taste.p":"Closest to a date with a touch of balsamic and soy. Soft and chewy, and it melts into a hot sauce.",
+  "taste.k":"Flavor profile","taste.h":"Sweet, savory,<br><i>and hard to name.</i>","taste.p":"Closest to a date with a touch of balsamic and soy. Soft and chewy, and it melts into a hot sauce.",
   "taste.black":"Black garlic","taste.fresh":"Fresh garlic","taste.note":"Our tasting estimate for black garlic, not a lab measurement.",
   "fact.sweet":"Sweetness","fact.umami":"Umami","fact.bals":"Balsamic","fact.acid":"Acidity","fact.bite":"Bite",
   "ways.h":"Three ways in",
@@ -147,21 +147,21 @@ en:{
   "rec.h":"Recipes","rec.k":"From the Egyptian kitchen","rec.all":"All recipes","rec.p":"Simple recipes from an everyday Egyptian pantry. Pick one and cook it tonight.",
   "rc.all":"All","rc.breakfast":"Breakfast","rc.main":"Mains","rc.sauce":"Sauces & dressings",
   "r.ing":"Ingredients","r.steps":"Method","r.time":"Time","r.serves":"Serves","r.uses":"Uses","r.next":"Next recipe","r.tick":"Tick off what you've prepped",
-  "chefs.k":"For restaurants","chefs.h":"By the kilo,<br><i>for your line.</i>","chefs.p":"Peeled cloves in barrier bags, paste and whole bulbs. Prices per kilo; we confirm final pricing and volumes with your first order.",
+  "chefs.k":"For restaurants","chefs.h":"The quiet ingredient<br><i>in your kitchen.</i>","chefs.p":"Peeled cloves in barrier bags, paste and whole bulbs. Prices per kilo; we confirm final pricing and volumes with your first order.",
   "chefs.l1":"A one-dish trial before your first order","chefs.l2":"Peeled cloves: no prep time, no waste","chefs.l3":"Volumes and delivery schedule agreed with each kitchen","chefs.cta":"Request a trial","chefs.req":"Request","chefs.more":"For chefs",
-  "chefs.ph":"By the kilo, for your line.","chefs.pp":"We work with kitchens the way chefs do: test it in a real dish, compare, and let the plate decide.",
+  "chefs.ph":"The quiet ingredient in your kitchen.","chefs.pp":"We work with kitchens the way chefs do: test it in a real dish, compare, and let the plate decide.",
   "chefs.price":"Kilo prices","chefs.how":"How we start","chefs.ctah":"Test it in a dish<br><i>already on your menu.</i>","chefs.ctap":"We send a sample, you compare it with the usual plate, and you decide.",
   "s1.h":"Pick the dish","s1.p":"A recipe already on your menu, and one flavor opportunity.","s2.h":"Set the benchmark","s2.p":"Your current supplier or in-house method.","s3.h":"Test two doses","s3.p":"2 g and 5 g in the same dish: taste, texture and handling.","s4.h":"You decide","s4.p":"Reject, revise, or start a commercial order.",
-  "story.h":"Our story","story.p":"Three partners, an ageing chamber we designed ourselves, and one question: why isn't black garlic in our kitchens?",
+  "story.h":"Our story","story.p":"Three partners, and one question: why isn't black garlic in our kitchens?",
   "story.big":"Black garlic has been a staple in Korea and Japan for years. Egypt is one of the world's largest garlic producers, yet black garlic is still missing from most Egyptian kitchens. So we decided to age it here.",
   "story.vh":"What we hold to",
-  "v1.h":"One ingredient","v1.p":"Garlic. No sugar, no preservatives, no colour.","v2.h":"Every lot recorded","v2.p":"We log the temperature and weight of every lot, so any feedback can be traced back.","v3.h":"Made in Egypt","v3.p":"Egyptian garlic, and an ageing chamber we designed ourselves.","v4.h":"Food, not medicine","v4.p":"No health claims without evidence on our own product.",
+  "v1.h":"One ingredient","v1.p":"Garlic. No sugar, no preservatives, no colour.","v2.h":"Every lot recorded","v2.p":"We record every lot, so any feedback can be traced back.","v3.h":"Made in Egypt","v3.p":"Egyptian garlic, aged in Egypt.","v4.h":"Food, not medicine","v4.p":"No health claims without evidence on our own product.",
   "faq.h":"Questions",
   "cta.h":"Try it in<br><i>one dish.</i>","cta.p":"Start with a jar of cloves and try it anywhere you'd reach for garlic, soy or balsamic.","cta.btn":"Shop the cloves",
   "pdp.pair":"Cook it in","pdp.more":"More from KOJI","pdp.use":"How to use it","pdp.keep":"Storage","pdp.ship":"Delivery & payment",
   "pdp.shipv":"Cairo and Giza first. Delivery is quoted by address and confirmed before you commit. Cash on delivery, InstaPay or Vodafone Cash, and no payment before we confirm your delivery date.",
   "pd.pack":"Pack","pd.ing":"Ingredients","pd.ingv":"Garlic, 100%","pd.use":"Use with",
-  "ft.line":"Black garlic, aged in Egypt, one lot at a time.","ft.shop":"Shop","ft.help":"Help","ft.faq":"FAQ","ft.contact":"Contact","ft.privacy":"Privacy","ft.terms":"Terms & delivery",
+  "ft.h":"Garlic,<br><i>given time.</i>","ft.line":"Black garlic, aged in Egypt, one lot at a time.","ft.shop":"Shop","ft.help":"Help","ft.faq":"FAQ","ft.contact":"Contact","ft.privacy":"Privacy","ft.terms":"Terms & delivery",
   "ft.copy":"© 2026 KOJI","ft.illus":"Some images are illustrative until we photograph our own lots",
   "cart.h":"Your bag","cart.empty":"Your bag is empty","cart.emptyp":"Start with a jar of cloves.","cart.go":"Go to the shop","cart.items":"Subtotal","cart.ship":"Delivery","cart.shipv":"Quoted by address","cart.total":"Total","cart.co":"Checkout","cart.rm":"Remove","cart.closed":"Orders are paused for now. Please check back soon.",
   "co.k":"Checkout","co.h":"Almost there","co.p":"This is a pre-order: we'll call to confirm the delivery date and fee before any payment.","co.pnp":"We'll call to confirm your order and delivery fee before delivery.",
@@ -178,17 +178,17 @@ en:{
   "privacy.p":"What we collect when you order, what we use it for, and who can see it.","terms.p":"Pre-orders, prices, delivery, payment, cancellation and returns.",
   "404.h":"This page<br><i>doesn't exist.</i>","404.p":"The link may have changed. Try the shop or the home page.",
   
-  "desc.home":"Egyptian garlic aged 21 days until it turns black and soft. Cloves, paste and whole bulbs: one ingredient, nothing added. Order online; no payment before we confirm.",
-  "desc.shop":"Black garlic cloves, paste, whole bulbs and a gift set. Egyptian garlic aged 21 days, with no added sugar or preservatives.",
+  "desc.home":"Egyptian garlic, aged until it turns black and soft. Cloves, paste and whole bulbs: one ingredient, nothing added. Order online; no payment before we confirm.",
+  "desc.shop":"Black garlic cloves, paste, whole bulbs and a gift set. Aged Egyptian garlic, with no added sugar or preservatives.",
   "desc.recipes":"Simple black garlic recipes from the Egyptian kitchen: tahini, white-sauce pasta, oven chicken and cheese toast.",
-  "desc.story":"Three partners, an ageing chamber we designed ourselves, and one question: why isn't black garlic in our kitchens?",
+  "desc.story":"Three partners, and one question: why isn't black garlic in our kitchens?",
   "desc.chefs":"Black garlic by the kilo for restaurants in Egypt: peeled cloves, paste and whole bulbs. Request a one-dish trial before your first order.",
   "desc.track":"Track your KOJI order with your order number and mobile.","desc.privacy":"What KOJI collects when you order, and how it is used.","desc.terms":"Pre-orders, prices, delivery, payment, cancellation and returns at KOJI.","desc.404":"This page doesn't exist.",
   "soon":"Coming soon","bar.closed":"Orders open soon. Restaurants can request a sample now",
   "nav.menu":"Menu","kick.hero":"Black garlic · Aged in Egypt",
-  "mq":["One ingredient","Aged 21 days","No added sugar","No preservatives","Egyptian garlic","Small lots"],
-  "shop.k":"The shop","about.not.h":"Not fermented. No mould.","about.not.p":"The colour comes from the Maillard reaction: the garlic's own sugars and amino acids react slowly under gentle heat, the way bread browns into toast.",
-  "days.h":"White to black in 21 days","days.day":"Day",
+  "mq":["One ingredient", "Slowly aged", "No added sugar", "No preservatives", "Egyptian garlic", "Small lots"],
+  "shop.k":"The shop","about.not.h":"Not fermented. No mould.","about.not.p":"The colour comes from the garlic itself, over time, the way bread browns into toast. Nothing is added.",
+  "days.h":"White to black","st":["Fresh","Darkening","Sweetening","Black"],"days.day":"Day",
   "ways.k":"How to use it","rec.home":"Recipes from<br><i>the Egyptian kitchen.</i>",
   "pr.k":"How ordering works","pr.h":"Order with confidence.",
   "pr1.h":"No payment before we confirm","pr1.p":"We call to confirm the delivery date and fee first.",
@@ -197,8 +197,8 @@ en:{
   "pr4.h":"Track your order","pr4.p":"With your order number and mobile, any time.",
   "guide.k":"Not sure where to start?","guide.h":"Cloves, paste,<br><i>or whole bulbs?</i>",
   "g.cloves":"To slice or eat as is. The easiest start.","g.paste":"Stirs into sauces and marinades, no mashing.","g.bulbs":"For serving and gifting. Peel as you go.",
-  "pdp.badges":["100% garlic","Aged 21 days","Nothing added"],"pdp.pre":"Pre-order: we confirm with you before any payment","pdp.photo":"Photo",
-  "story.team.h":"Who we are","story.team.p":"Three partners who studied chemical engineering. We age garlic the way we were taught to work: measure, record, and try again until the taste is right.",
+  "pdp.badges":["100% garlic", "Egyptian garlic", "Nothing added"],"pdp.pre":"Pre-order: we confirm with you before any payment","pdp.photo":"Photo",
+  "story.team.h":"Who we are","story.team.p":"Three partners who studied chemical engineering. We work the way we were taught: measure, record, and try again until the taste is right.",
   "cart.up":"Pairs well with","cart.note":"Nothing to pay now. We'll call to confirm first.",
 }};
 
@@ -249,19 +249,19 @@ KOJI.RECIPES = [
 ];
 
 KOJI.FAQ = {
- ar:[["هو ثوم متعفّن أو مخمّر؟","لأ. مفيش بكتيريا ولا خميرة ولا فطر. اللون الأسود من تفاعل طبيعي بين السكر والبروتين في الثوم مع الحرارة الهادية والوقت (تفاعل ميلارد)، نفس اللي بيحصل للعيش وهو بيتحمّص. و«كوجي» اسم البراند بس، مش بنستخدم فطر الكوجي الياباني."],
+ ar:[["هو ثوم متعفّن أو مخمّر؟","لأ. مفيش بكتيريا ولا خميرة ولا فطر. اللون الأسود بييجي من الثوم نفسه مع الوقت، زي العيش وهو بيتحمّص. و«كوجي» اسم البراند بس، مش بنستخدم فطر الكوجي الياباني."],
   ["ريحته زي الثوم العادي؟","لأ، أهدى بكتير. الحدة بتتكسر في التعتيق، وطعمه بيبقى أقرب لتمر أو بلسميك."],
   ["أحفظه إزاي؟","العبوة المقفولة في مكان بارد وناشف. بعد الفتح في التلاجة. تاريخ الصلاحية مكتوب على العبوة."],
   ["الفرق بين الفصوص والمعجون والرؤوس الكاملة؟","الفصوص مقشّرة وجاهزة للأكل والتقطيع. المعجون أسهل في الخلط مع الصوصات. والراس الكاملة بقشرها، بتقشّرها وقت ما تحتاجها، وشكلها حلو كهدية."],
-  ["ليه أغلى من الثوم العادي؟","الثوم بيخس جزء من وزنه في التعتيق، والتعتيق بياخد ٣ أسابيع. وإنت بتستخدم فص أو اتنين في الطبق، مش رأس كاملة."],
+  ["ليه أغلى من الثوم العادي؟","الثوم بيخس جزء كبير من وزنه في التعتيق، والتعتيق بياخد وقت طويل. وإنت بتستخدم فص أو اتنين في الطبق، مش رأس كاملة."],
   ["الدفع والتوصيل؟","كاش عند الاستلام، أو إنستاباي، أو فودافون كاش. القاهرة والجيزة الأول، ومصاريف التوصيل بتتحدد حسب العنوان ونقولهالك قبل التأكيد."],
   ["أتابع طلبي إزاي؟","من صفحة «تتبّع طلبك» برقم الطلب ورقم الموبايل اللي طلبت بيه."],
   ["هل له فوايد صحية؟","فيه أبحاث كتير على الثوم الأسود، بس إحنا مش هنقول ادعاءات صحية من غير بيانات على منتجنا ومراجعة تنظيمية. بنبيعه كأكل حلو الطعم."]],
- en:[["Is it fermented or mouldy?","No. No bacteria, yeast or mould. The colour comes from a natural reaction between the garlic's sugars and amino acids under gentle heat over time (the Maillard reaction), the same one that browns toast. KOJI is our name; we don't use koji mould."],
+ en:[["Is it fermented or mouldy?","No. No bacteria, yeast or mould. The colour comes from the garlic itself, over time, the way bread browns into toast. KOJI is our name; we don't use koji mould."],
   ["Does it smell like garlic?","Much softer. The sharpness breaks down during ageing, leaving something closer to dates or balsamic."],
   ["How do I store it?","Sealed: somewhere cool and dry. Once opened: the fridge. Best-before is printed on the pack."],
   ["Cloves, paste or bulbs?","Cloves are peeled and ready to eat or slice. Paste blends easily into sauces. Whole bulbs come in their skins; peel as you go, and they make a beautiful gift."],
-  ["Why does it cost more than garlic?","Garlic loses part of its weight while ageing, and each lot takes three weeks. And you use a clove or two, not a whole head."],
+  ["Why does it cost more than garlic?","Garlic loses much of its weight while ageing, and each lot takes a long time. And you use a clove or two, not a whole head."],
   ["Payment and delivery?","Cash on delivery, InstaPay or Vodafone Cash. Cairo and Giza first; delivery is quoted by address before you confirm."],
   ["How do I track my order?","On the Track order page, with your order number and the mobile you ordered with."],
   ["Is it a health food?","There's a lot of research on black garlic, but we won't make health claims without data on our own product and regulatory review. We sell it because it tastes extraordinary."]]
@@ -452,12 +452,12 @@ K.UI = function (lang) {
     <div class="wrap age-in">
       <div class="age-tx">
         <h2 class="kick" id="ageH">${t("days.h")}</h2>
-        <div class="age-day" aria-hidden="true"><b id="ageDay">00</b><span>${t("days.day")}</span></div>
-        <ol class="age-st">${[0, 1, 2, 3].map(i => `<li${i ? "" : ' class="on"'}><span class="age-d">${t("days.day")} ${num([0, 7, 14, 21][i])}</span><h3>${t(`d${i}.h`)}</h3><p>${t(`d${i}.p`)}</p></li>`).join("")}</ol>
+        <div class="age-day" aria-hidden="true"><b id="ageDay">${t("st")[0]}</b></div>
+        <ol class="age-st">${[0, 1, 2, 3].map(i => `<li${i ? "" : ' class="on"'}><h3>${t(`d${i}.h`)}</h3><p>${t(`d${i}.p`)}</p></li>`).join("")}</ol>
       </div>
       <div class="age-art">${BULB}</div>
     </div>
-    <div class="wrap"><div class="age-rail" aria-hidden="true"><i></i><div>${[0, 7, 14, 21].map(d => `<span>${num(d)}</span>`).join("")}</div></div></div>
+    <div class="wrap"><div class="age-rail" aria-hidden="true"><i></i><div>${t("st").map(w => `<span>${w}</span>`).join("")}</div></div></div>
   </div>
 </section>`;
 
@@ -472,7 +472,7 @@ K.UI = function (lang) {
       <p class="hero-p">${t("hero.p")}</p>
       <div class="hero-ctas"><a class="btn btn-light btn-lg" href="#shop">${t("hero.cta")} ${arrow}</a><a class="btn btn-ghost btn-lg" href="#about">${t("hero.what")}</a></div>
     </div>
-    <dl class="hero-stats">${[[1, "pts.1"], [21, "pts.2"], [0, "pts.3"]].map(([n, k]) => `<div><dt data-count="${n}">${n}</dt><dd>${t(k)}</dd></div>`).join("")}</dl>
+    <dl class="hero-stats">${[[1, "pts.1"], [0, "pts.2"], [0, "pts.3"]].map(([n, k]) => `<div><dt data-count="${n}">${n}</dt><dd>${t(k)}</dd></div>`).join("")}</dl>
   </div>
 </section>
 <div class="mq" aria-hidden="true"><div class="mq-t">${[0, 1].map(() => t("mq").map(w => `<span>${w}</span><i>✦</i>`).join("")).join("")}</div></div>
@@ -492,7 +492,6 @@ K.UI = function (lang) {
 </div></section>
 ${age()}
 ${taste()}
-${ways()}
 <section class="sec tint"><div class="wrap">
   ${secHd("rec.k", "rec.home", `<a class="more" href="recipes.html">${t("rec.all")} ${arrow}</a>`)}
   <div class="rgrid">${K.RECIPES.slice(0, 3).map(recCard).join("")}</div>
@@ -664,7 +663,7 @@ ${taste()}
   const bottom = () => `
 <footer class="ft"><div class="wrap">
   <div class="ft-top">
-    <div class="ft-cta"><h2 class="h1">${t("hero.h")}</h2><a class="btn btn-light btn-lg" href="shop.html">${t("hero.cta")} ${arrow}</a></div>
+    <div class="ft-cta"><h2 class="h1">${t("ft.h")}</h2><a class="btn btn-light btn-lg" href="shop.html">${t("hero.cta")} ${arrow}</a></div>
     <div class="ft-cols">
       <div><h3>${t("ft.shop")}</h3>${NAV.map(([h, k]) => `<a href="${h}">${t(k)}</a>`).join("")}</div>
       <div><h3>${t("ft.help")}</h3><a href="track.html">${t("nav.track")}</a><a href="story.html#faq">${t("ft.faq")}</a><a href="terms.html">${t("ft.terms")}</a><a href="privacy.html">${t("ft.privacy")}</a></div>
@@ -991,7 +990,7 @@ function header() {
   hd.addEventListener("focusin", () => hd.classList.remove("hide"));
   upd();
 }
-/* 21 days: the page itself darkens from fresh garlic to black garlic while the section scrolls by */
+/* white to black: the page itself darkens from fresh garlic to black garlic while the section scrolls by */
 function ageStory() {
   const sec = $("#age"); if (!sec || RM) return;
   sec.classList.add("live");
@@ -1010,8 +1009,8 @@ function ageStory() {
     sec.style.setProperty("--bg", `rgb(${bg})`);
     sec.style.setProperty("--bulb", `rgb(${mix(BULB, p)})`);
     sec.style.setProperty("--line", `rgb(${mix(LINE, p)})`);
-    const d = Math.round(p * 21); if (d !== lastD) { day.textContent = String(d).padStart(2, "0"); lastD = d }
-    const s = Math.min(3, Math.round(p * 3)); if (s !== lastS) { st.forEach((li, i) => li.classList.toggle("on", i === s)); lastS = s }
+    // the big word follows the stage (fresh → black); no day numbers on the site (18 Oct: the ageing time stays ours)
+    const s = Math.min(3, Math.round(p * 3)); if (s !== lastS) { st.forEach((li, i) => li.classList.toggle("on", i === s)); if (day) day.textContent = t("st")[s]; lastS = s }
     const dark = (0.2126 * bg[0] + 0.7152 * bg[1] + 0.0722 * bg[2]) < 140; if (dark !== lastDark) { sec.classList.toggle("dark-on", dark); lastDark = dark }
   };
   const req = () => { if (!raf) raf = requestAnimationFrame(frame) };

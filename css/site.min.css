@@ -206,7 +206,7 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.04;letter-spa
 .age.live .age-stick{position:sticky;top:0;height:100vh;height:100svh;display:flex;flex-direction:column;justify-content:center;padding-block:calc(var(--hd-h) + 8px) 28px;overflow:hidden}
 .age.live .age-stick>.wrap{width:100%}
 .age.live .age-day{display:flex;align-items:baseline;gap:16px;margin:4px 0 14px}
-.age-day b{font-family:var(--latin);font-weight:400;font-size:clamp(6.5rem,16vw,15rem);line-height:.8;min-width:2ch;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.age-day b{font-family:var(--latin);font-weight:400;font-size:clamp(4.2rem,9vw,8.6rem);line-height:1.15;letter-spacing:-.01em;white-space:nowrap}
 .age-day span{font-size:1.15rem;opacity:.75}
 .age.live .age-st{grid-template-columns:1fr;gap:0;min-height:10em}
 .age.live .age-st li{grid-area:1/1;border:0;padding:0;opacity:0;transform:translateY(18px);transition:opacity .45s,transform .7s var(--ease)}
@@ -525,7 +525,7 @@ body{font-size:15.5px}
 .age.live .age-art{order:-1}
 .age.live .bulb{width:min(58vw,32svh)}
 .age.live .age-in{gap:6px}
-.age-day b{font-size:clamp(4.6rem,24vw,7.5rem)}
+.age-day b{font-size:clamp(3.4rem,16vw,5.4rem)}
 .age.live .age-st{min-height:9em}
 .age.live .age-st h3{font-size:1.6rem}
 .fact{grid-template-columns:86px 1fr 38px}
