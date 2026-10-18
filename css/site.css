@@ -408,7 +408,8 @@ details p{padding:0 0 22px;color:var(--ink-2);max-width:640px}
 .ft{background:var(--char);color:#b3aa9d;padding-top:clamp(76px,10vw,130px);overflow:hidden;font-size:.94rem}
 .ft-top{display:grid;grid-template-columns:1.15fr 1fr;gap:56px;padding-bottom:64px;border-bottom:1px solid #2c2622}
 .ft-cta .h1{color:var(--paper);margin-bottom:30px;font-size:clamp(2.6rem,5vw,4.6rem)}
-.ft-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.ft-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) max-content;gap:28px}
+.ft-cols a[href^="mailto"] span{overflow-wrap:normal;white-space:nowrap;direction:ltr}
 .ft-cols h3{font-family:var(--sans);font-size:.85rem;font-weight:500;color:var(--paper);margin-bottom:14px;line-height:1.5}
 .ft-cols a{display:flex;align-items:center;gap:8px;padding:5px 0;transition:color .2s;overflow-wrap:anywhere}
 .ft-cols a:hover{color:var(--paper)}

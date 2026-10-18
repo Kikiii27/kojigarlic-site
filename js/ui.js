@@ -270,7 +270,7 @@ ${band()}`;
   const story = () => phead("", "story.h", "story.p") + `
 <section class="sec"><div class="wrap"><p class="statement" data-split>${t("story.big")}</p></div></section>
 <section class="sec tint"><div class="wrap two">
-  <figure class="story-media rv-img">${pic("assets/shot-bulbs.webp", ar ? "بصلتين ثوم أسود في برطمان إزاز" : "Two black garlic bulbs in a glass jar", { sizes: "(max-width:1000px) 100vw, 45vw" })}</figure>
+  <figure class="story-media rv-img">${pic("assets/shot-bulbs.webp", ar ? "راسين ثوم أسود في برطمان إزاز" : "Two black garlic bulbs in a glass jar", { sizes: "(max-width:1000px) 100vw, 45vw" })}</figure>
   <div>
     ${kick("story.team.h")}<p class="lead rv">${t("story.team.p")}</p><p class="rv" style="margin-top:18px;color:var(--ink-2)">${t("mani.sub")}</p>
     <div class="label rv" aria-label="${t("label.h")}">
