@@ -67,9 +67,9 @@ ar:{
   "chefs.ph":"المكوّن السري لمطبخك.","chefs.pp":"بنشتغل مع المطابخ بنفس طريقة الشيف: نجرّب في طبق حقيقي، ونقارن، والطبق هو اللي يقرر.",
   "chefs.price":"أسعار الكيلو","chefs.how":"إزاي بنبدأ","chefs.ctah":"جرّبه في طبق<br><i>من المنيو بتاعك.</i>","chefs.ctap":"بنبعتلك عينة، تقارنها بالطبق العادي، وإنت تقرر.",
   "s1.h":"نختار الطبق","s1.p":"وصفة موجودة عندك، وفرصة نكهة محددة.","s2.h":"نحدد المقارنة","s2.p":"المورد الحالي أو طريقتك الحالية.","s3.h":"نجرّب كميتين","s3.p":"٢ جم و٥ جم في نفس الطبق: الطعم، والقوام، وسهولة الاستخدام.","s4.h":"إنت تقرر","s4.p":"ترفض، أو نعدّل، أو نبدأ طلب تجاري.",
-  "story.h":"الحكاية","story.p":"تلات شركا، وسؤال واحد: ليه الثوم الأسود مش في مطبخنا؟",
-  "story.big":"الثوم الأسود مكوّن معروف في كوريا واليابان من سنين. ومصر من أكبر الدول المنتجة للثوم في العالم، ومع ذلك لسه مش موجود في أغلب المطابخ المصرية. فقررنا نعتّقه هنا.",
-  "story.vh":"اللي ماشيين عليه",
+  "story.h":"في مطبخنا،<br><i>أحلى حاجات بتستنى.</i>","story.p":"حكاية الثوم الأسود، وليه بقى ثوم مصري.",
+  "story.big":"الفول بيدمّس طول الليل. المش بيقعد شهور لحد ما يستوي. الليمون بيستنى في برطمان المخلل، والعيش بيستنى لحد ما يخمّر. الثوم الأسود من نفس العيلة.",
+  "story.vh":"اللي ماشيين عليه","cmp.end":"نفس الثومة.<br><i>الفرق: الوقت.</i>","cmp.r5":["بتاكله", "مطبوخ", "مطبوخ، أو زي ما هو"],"cmp.r4":["في الأكل", "بيغطي على اللي حواليه", "بيعمّق اللي حواليه"],"cmp.r3":["الريحة", "بتفضل معاك", "هادية"],"cmp.r2":["القوام", "ناشف وبيتقطّع", "طري زي التمر"],"cmp.r1":["الطعم", "حامي", "حلو ومالح"],"cmp.b":"اللي هتعرفه","cmp.a":"اللي تعرفه","cmp.h":"الثوم اللي تعرفه،<br><i>والثوم اللي هتعرفه.</i>","cmp.k":"نفس الثومة","why.p2":"فقررنا نعتّقه هنا، من ثوم مصري، على مهله.","why.p1":"في كوريا واليابان، الثوم الأسود بقى من سنين مكوّن بيتقدّم في أكبر المطاعم. ومصر من أكبر بلاد العالم في زراعة الثوم، ومع ذلك لسه مش موجود في أغلب مطابخنا.","why.h":"بلد الثوم،<br><i>من غير ثومه الأسود.</i>","why.k":"ليه هنا؟","pure.p":"ثوم مصري وبس. لا سكر، ولا مواد حافظة، ولا ألوان، ولا أي حاجة اتضافت عليه.","pure.k":"اللي جوه البرطمان","ch3.p":"ثوم مصري، بيتعتّق على مهله لحد ما يسودّ. نفس المكوّن اللي مطبخنا عارفه من آلاف السنين، بطعم أول مرة يقابله.","ch3.h":"ورجع لمصر","ch3.k":"النهارده","ch2.p":"في كوريا واليابان، الثوم الأسود بقى من سنين مكوّن بتقدّمه المطاعم الكبيرة: طري زي التمر، حلو ومالح، ومن غير حدة الثوم.","ch2.h":"وفي الشرق، بقى أسود","ch2.k":"الشرق الأقصى","ch1.p":"اتلاقى ثوم في مقبرة توت عنخ آمون، واتكتب إن العمال اللي بنوا الهرم الأكبر كانوا بياكلوه كل يوم. الثوم في مصر أقدم من أي وصفة.","ch1.h":"أكل اللي بنوا الأهرامات","ch1.k":"مصر القديمة","ch.k":"تلات محطات","story.k":"الحكاية",
   "v1.h":"مكوّن واحد","v1.p":"ثوم وبس. مفيش سكر، ولا مواد حافظة، ولا ألوان.","v2.h":"كل دفعة متسجّلة","v2.p":"بنسجّل كل دفعة، عشان أي ملاحظة نقدر نرجعلها.","v3.h":"صنع في مصر","v3.p":"ثوم مصري، متعتّق في مصر.","v4.h":"أكل، مش علاج","v4.p":"مش هنقول ادعاءات صحية من غير دليل على منتجنا نفسه.",
   "faq.h":"أسئلة",
   "cta.h":"جرّبه في<br><i>طبق واحد.</i>","cta.p":"ابدأ ببرطمان فصوص، وجرّبه في أي طبق بتحط فيه ثوم أو صويا أو بلسميك.","cta.btn":"تسوّق الفصوص",
@@ -96,7 +96,7 @@ ar:{
   "desc.home":"ثوم مصري متعتّق لحد ما يسودّ ويطرى. فصوص ومعجون ورؤوس كاملة، مكوّن واحد ومن غير إضافات. اطلب أونلاين، ومفيش دفع قبل التأكيد.",
   "desc.shop":"فصوص ثوم أسود، ومعجون، ورؤوس كاملة، وطقم هدية. ثوم مصري متعتّق، من غير سكر مضاف ولا مواد حافظة.",
   "desc.recipes":"وصفات بسيطة بالثوم الأسود من المطبخ المصري: طحينة، ومكرونة وايت صوص، وفراخ في الفرن، وتوست بالجبنة.",
-  "desc.story":"تلات شركا، وسؤال واحد: ليه الثوم الأسود مش في مطبخنا؟",
+  "desc.story":"في مطبخنا، أحلى حاجات بتستنى. حكاية الثوم الأسود، وليه بقى ثوم مصري.",
   "desc.chefs":"ثوم أسود بالكيلو للمطاعم في مصر: فصوص مقشّرة، ومعجون، ورؤوس كاملة. اطلب عينة لطبق واحد قبل أول طلب.",
   "desc.track":"تابع طلبك من كوجي برقم الطلب ورقم الموبايل.","desc.privacy":"إيه اللي بنجمعه لما تطلب من كوجي، وبنستخدمه في إيه.","desc.terms":"الطلب المسبق، والأسعار، والتوصيل، والدفع، والإلغاء، والاسترجاع في كوجي.","desc.404":"الصفحة دي مش موجودة.",
   "soon":"متاح قريبًا","bar.closed":"الطلبات هتفتح قريب، والمطاعم تقدر تطلب عينة دلوقتي",
@@ -152,9 +152,9 @@ en:{
   "chefs.ph":"The quiet ingredient in your kitchen.","chefs.pp":"We work with kitchens the way chefs do: test it in a real dish, compare, and let the plate decide.",
   "chefs.price":"Kilo prices","chefs.how":"How we start","chefs.ctah":"Test it in a dish<br><i>already on your menu.</i>","chefs.ctap":"We send a sample, you compare it with the usual plate, and you decide.",
   "s1.h":"Pick the dish","s1.p":"A recipe already on your menu, and one flavor opportunity.","s2.h":"Set the benchmark","s2.p":"Your current supplier or in-house method.","s3.h":"Test two doses","s3.p":"2 g and 5 g in the same dish: taste, texture and handling.","s4.h":"You decide","s4.p":"Reject, revise, or start a commercial order.",
-  "story.h":"Our story","story.p":"Three partners, and one question: why isn't black garlic in our kitchens?",
-  "story.big":"Black garlic has been a staple in Korea and Japan for years. Egypt is one of the world's largest garlic producers, yet black garlic is still missing from most Egyptian kitchens. So we decided to age it here.",
-  "story.vh":"What we hold to",
+  "story.h":"In our kitchens,<br><i>the best things wait.</i>","story.p":"The story of black garlic, and why it is now Egyptian.",
+  "story.big":"Ful simmers all night. Mish sits for months until it's ready. Lemons wait in the pickle jar, and bread waits to rise. Black garlic is from the same family.",
+  "story.vh":"What we hold to","cmp.end":"Same garlic.<br><i>The difference is time.</i>","cmp.r5":["You eat it", "Cooked", "Cooked, or just as it is"],"cmp.r4":["In a dish", "Takes over", "Deepens everything around it"],"cmp.r3":["Smell", "Stays with you", "Gentle"],"cmp.r2":["Texture", "Firm, to be chopped", "Soft, like a date"],"cmp.r1":["Taste", "Sharp", "Sweet and savory"],"cmp.b":"The one you'll know","cmp.a":"The one you know","cmp.h":"The garlic you know,<br><i>and the one you're about to.</i>","cmp.k":"Same garlic","why.p2":"So we decided to age it here, from Egyptian garlic, slowly.","why.p1":"In Korea and Japan, black garlic has been a fine-dining ingredient for years. Egypt is one of the world's largest garlic growers, yet it is still missing from most of our kitchens.","why.h":"A garlic country,<br><i>without its black garlic.</i>","why.k":"Why here?","pure.p":"Egyptian garlic, and nothing else. No sugar, no preservatives, no colour, nothing added.","pure.k":"What's in the jar","ch3.p":"Egyptian garlic, aged slowly until it turns black. The same ingredient our kitchens have known for thousands of years, with a taste they are meeting for the first time.","ch3.h":"And it came home","ch3.k":"Today","ch2.p":"In Korea and Japan, black garlic became a fine-dining ingredient years ago: soft like a date, sweet and savory, with none of garlic's bite.","ch2.h":"In the East, it turned black","ch2.k":"The Far East","ch1.p":"Garlic was found in Tutankhamun's tomb, and it was written that the workers who built the Great Pyramid ate it every day. In Egypt, garlic is older than any recipe.","ch1.h":"The food of the pyramid builders","ch1.k":"Ancient Egypt","ch.k":"Three chapters","story.k":"Our story",
   "v1.h":"One ingredient","v1.p":"Garlic. No sugar, no preservatives, no colour.","v2.h":"Every lot recorded","v2.p":"We record every lot, so any feedback can be traced back.","v3.h":"Made in Egypt","v3.p":"Egyptian garlic, aged in Egypt.","v4.h":"Food, not medicine","v4.p":"No health claims without evidence on our own product.",
   "faq.h":"Questions",
   "cta.h":"Try it in<br><i>one dish.</i>","cta.p":"Start with a jar of cloves and try it anywhere you'd reach for garlic, soy or balsamic.","cta.btn":"Shop the cloves",
@@ -181,7 +181,7 @@ en:{
   "desc.home":"Egyptian garlic, aged until it turns black and soft. Cloves, paste and whole bulbs: one ingredient, nothing added. Order online; no payment before we confirm.",
   "desc.shop":"Black garlic cloves, paste, whole bulbs and a gift set. Aged Egyptian garlic, with no added sugar or preservatives.",
   "desc.recipes":"Simple black garlic recipes from the Egyptian kitchen: tahini, white-sauce pasta, oven chicken and cheese toast.",
-  "desc.story":"Three partners, and one question: why isn't black garlic in our kitchens?",
+  "desc.story":"In our kitchens, the best things wait. The story of black garlic, and why it is now Egyptian.",
   "desc.chefs":"Black garlic by the kilo for restaurants in Egypt: peeled cloves, paste and whole bulbs. Request a one-dish trial before your first order.",
   "desc.track":"Track your KOJI order with your order number and mobile.","desc.privacy":"What KOJI collects when you order, and how it is used.","desc.terms":"Pre-orders, prices, delivery, payment, cancellation and returns at KOJI.","desc.404":"This page doesn't exist.",
   "soon":"Coming soon","bar.closed":"Orders open soon. Restaurants can request a sample now",
@@ -577,12 +577,24 @@ ${band()}`;
 </div></section>
 <section><div class="wrap"><a class="next" href="${rurl(next)}"><span><span class="small">${t("r.next")}</span><span class="next-h">${esc(L(next).n)}</span></span>${arrow}</a></div></section>` };
 
-  const story = () => phead("", "story.h", "story.p") + `
+  const story = () => phead("story.k", "story.h", "story.p") + `
 <section class="sec"><div class="wrap"><p class="statement" data-split>${t("story.big")}</p></div></section>
+<section class="sec tint about"><div class="wrap about-in">
+  <figure class="about-media rv-img">${pic("assets/shot-macro.webp", ar ? "رأس ثوم أسود مقطوعة نصين" : "A halved bulb of black garlic", { w: 1126, h: 1688, sizes: "(max-width:1000px) 100vw, 45vw" })}</figure>
+  <div class="about-tx">${kick("why.k")}<h2 class="h2" data-split>${t("why.h")}</h2><p class="lead rv">${t("why.p1")}</p><p class="lead rv" style="margin-top:14px">${t("why.p2")}</p></div>
+</div></section>
+<section class="sec"><div class="wrap">
+  ${secHd("cmp.k", "cmp.h")}
+  <div class="cmp rv" role="table">
+    <div class="cmp-r cmp-hd" role="row"><span role="columnheader"></span><b role="columnheader">${t("cmp.a")}</b><b role="columnheader">${t("cmp.b")}</b></div>
+    ${[1, 2, 3, 4, 5].map(i => { const [k, a, b] = t(`cmp.r${i}`); return `<div class="cmp-r" role="row"><span role="rowheader">${k}</span><p role="cell">${a}</p><p class="cmp-new" role="cell">${b}</p></div>` }).join("")}
+  </div>
+  <p class="statement cmp-end" data-split>${t("cmp.end")}</p>
+</div></section>
 <section class="sec tint"><div class="wrap two">
   <figure class="story-media rv-img">${pic("assets/shot-bulbs.webp", ar ? "راسين ثوم أسود في برطمان إزاز" : "Two black garlic bulbs in a glass jar", { sizes: "(max-width:1000px) 100vw, 45vw" })}</figure>
   <div>
-    ${kick("story.team.h")}<p class="lead rv">${t("story.team.p")}</p><p class="rv" style="margin-top:18px;color:var(--ink-2)">${t("mani.sub")}</p>
+    ${kick("pure.k")}<p class="lead rv">${t("pure.p")}</p>
     <div class="label rv" aria-label="${t("label.h")}">
       <h3>${t("label.h")}</h3>
       <div class="row thick"><b>${t("label.ing")}</b><span>${t("label.ingv")}</span></div>

@@ -267,12 +267,24 @@ ${band()}`;
 </div></section>
 <section><div class="wrap"><a class="next" href="${rurl(next)}"><span><span class="small">${t("r.next")}</span><span class="next-h">${esc(L(next).n)}</span></span>${arrow}</a></div></section>` };
 
-  const story = () => phead("", "story.h", "story.p") + `
+  const story = () => phead("story.k", "story.h", "story.p") + `
 <section class="sec"><div class="wrap"><p class="statement" data-split>${t("story.big")}</p></div></section>
+<section class="sec tint about"><div class="wrap about-in">
+  <figure class="about-media rv-img">${pic("assets/shot-macro.webp", ar ? "رأس ثوم أسود مقطوعة نصين" : "A halved bulb of black garlic", { w: 1126, h: 1688, sizes: "(max-width:1000px) 100vw, 45vw" })}</figure>
+  <div class="about-tx">${kick("why.k")}<h2 class="h2" data-split>${t("why.h")}</h2><p class="lead rv">${t("why.p1")}</p><p class="lead rv" style="margin-top:14px">${t("why.p2")}</p></div>
+</div></section>
+<section class="sec"><div class="wrap">
+  ${secHd("cmp.k", "cmp.h")}
+  <div class="cmp rv" role="table">
+    <div class="cmp-r cmp-hd" role="row"><span role="columnheader"></span><b role="columnheader">${t("cmp.a")}</b><b role="columnheader">${t("cmp.b")}</b></div>
+    ${[1, 2, 3, 4, 5].map(i => { const [k, a, b] = t(`cmp.r${i}`); return `<div class="cmp-r" role="row"><span role="rowheader">${k}</span><p role="cell">${a}</p><p class="cmp-new" role="cell">${b}</p></div>` }).join("")}
+  </div>
+  <p class="statement cmp-end" data-split>${t("cmp.end")}</p>
+</div></section>
 <section class="sec tint"><div class="wrap two">
   <figure class="story-media rv-img">${pic("assets/shot-bulbs.webp", ar ? "راسين ثوم أسود في برطمان إزاز" : "Two black garlic bulbs in a glass jar", { sizes: "(max-width:1000px) 100vw, 45vw" })}</figure>
   <div>
-    ${kick("story.team.h")}<p class="lead rv">${t("story.team.p")}</p><p class="rv" style="margin-top:18px;color:var(--ink-2)">${t("mani.sub")}</p>
+    ${kick("pure.k")}<p class="lead rv">${t("pure.p")}</p>
     <div class="label rv" aria-label="${t("label.h")}">
       <h3>${t("label.h")}</h3>
       <div class="row thick"><b>${t("label.ing")}</b><span>${t("label.ingv")}</span></div>

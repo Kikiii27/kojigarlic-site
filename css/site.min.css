@@ -232,6 +232,14 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.04;letter-spa
 .facts-key i{display:inline-block;width:14px;height:9px;border-radius:2px;background:currentColor;margin-inline-end:7px;vertical-align:middle}
 .facts-key i.f{background:none;box-shadow:inset 0 0 0 1.5px var(--gold)}
 .fine{font-size:.82rem;opacity:.7;margin-top:18px}
+.cmp{border-top:1px solid var(--ink)}
+.cmp-r{display:grid;grid-template-columns:minmax(84px,.6fr) 1fr 1fr;gap:clamp(12px,2.6vw,44px);align-items:baseline;padding:clamp(14px,1.8vw,22px) 0;border-bottom:1px solid var(--rule)}
+.cmp-r span{font-size:.85rem;color:var(--soft)}
+.cmp-r p{font-size:clamp(1.05rem,1.5vw,1.35rem);line-height:1.5;color:var(--soft)}
+.cmp-r .cmp-new{color:var(--ink)}
+.cmp-hd b{font-family:var(--serif);font-weight:400;font-size:clamp(1.35rem,2.3vw,2.1rem);line-height:1.2;color:var(--soft)}
+.cmp-hd b:last-child{color:var(--brown)}
+.cmp-end{margin-top:clamp(44px,6vw,88px)}
 .ways,.values,.steps4{list-style:none;padding:0;display:grid;gap:clamp(20px,3vw,48px)}
 .ways{grid-template-columns:repeat(3,1fr)}
 .values,.steps4{grid-template-columns:repeat(4,1fr);gap:clamp(18px,2.4vw,32px)}
@@ -239,6 +247,8 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.04;letter-spa
 .way-n{display:block;font-family:var(--latin);font-size:clamp(2.8rem,4.6vw,4.2rem);line-height:1;color:var(--brown);opacity:.6;margin-bottom:16px}
 :is(.way,.values>div,.steps4>li) h3{font-size:clamp(1.55rem,2.2vw,2.1rem);margin-bottom:8px}
 :is(.way,.values>div,.steps4>li) p{color:var(--ink-2)}
+.chapters .kick{display:block;margin-bottom:10px}
+.chapters h3{margin-bottom:12px}
 .way-d{display:inline-block;margin-top:18px;font-size:.82rem;padding:4px 13px;border:1px solid var(--rule);border-radius:999px;color:var(--soft)}
 .rgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .rc{position:relative;display:flex;flex-direction:column;gap:10px;min-height:320px;padding:28px 26px 22px;border-radius:var(--r);background:var(--rbg);color:var(--rfg);transition:transform .6s var(--ease),box-shadow .6s var(--ease)}
